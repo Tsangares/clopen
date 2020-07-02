@@ -11,7 +11,9 @@ To compile without running test run
 To compile and run the given tests execute
 
     mvn install
-	
+
+The main file that needs editing is located at `clopen/src/main/java/com/clopen/Clopen.java`.
+
 # Dependencies
 
 This project uses maven, maven must be installed to use the `mvn` command.
