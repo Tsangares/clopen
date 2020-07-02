@@ -8,14 +8,6 @@ class Clopen{
     }
 
     // Given a list of points which form edges
-    // Return a list of all lists that form enclosurers (pass isClosed)
-    public static ArrayList<ArrayList<Point>> getEnclosures(ArrayList<Point> arr){
-	ArrayList<ArrayList<Point>> enclosurers = new ArrayList<ArrayList<Point>>();
-	//Find enclosures given a list of walls in arr.
-	return enclosurers;
-    }
-
-    // Given a list of points which form edges
     // Return True if list of point arr is connected and forms a loop
     // Return Flase if arr is either disconnected or does not form a loop
     public static boolean isClosed(ArrayList<Point> arr){
@@ -30,5 +22,14 @@ class Clopen{
 	//Test if inside closed
 	return false;
     }
+
+    // Given a list of points which form edges
+    // Return a list of all lists that form enclosurers (pass isClosed)
+    public static ArrayList<ArrayList<Point>> getEnclosures(ArrayList<Point> arr){
+	ArrayList<ArrayList<Point>> enclosurers = new ArrayList<ArrayList<Point>>();
+	//Find enclosures given a list of walls in arr.
+	return enclosurers;
+    }
+
 }
 
