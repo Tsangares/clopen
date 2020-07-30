@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.awt.Point;
 
 class Clopen{
-    public static void main(String args[]) throws IOException{
+    public static void main(String args[]) {
 	
     }
 
