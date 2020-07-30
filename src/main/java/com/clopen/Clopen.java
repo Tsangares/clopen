@@ -3,17 +3,9 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.awt.Point;
 
-import org.wasmer.Instance;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
 class Clopen{
     public static void main(String args[]) throws IOException{
-	System.out.println("Initialized.");
-	byte[] bytes = Files.readAllBytes(Paths.get("src/main/java/com/clopen/rust_bg.wasm"));
-	Instance instance = new Instance(bytes);
-	instance.exports.getFunction("world").apply();
+	
     }
 
     // Given a list of edges
