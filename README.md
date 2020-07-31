@@ -14,6 +14,18 @@ To compile and run the given tests execute
 
 The main file that needs editing is located at `clopen/src/main/java/com/clopen/Clopen.java`.
 
+# How to help
+
+Write your code in `clopen/src/main/java/com/clopen/Clopen.java`, filling in the function `getEnclosures`. To compile and test your own syntax errors or general bugs run 
+
+    mvn install -DskipTests
+	
+Once you feel your algorithm is adequite, run the command
+
+    mvn install
+	
+To run your code against the designed tests to show if the algorithm is correct.
+
 # Dependencies
 
 This project uses maven, maven must be installed to use the `mvn` command.
