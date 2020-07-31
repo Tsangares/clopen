@@ -1,9 +1,5 @@
 # Quickstart
 
-You must be inside the directory `clopen` to run and compilie the code.
-
-    cd clopen
-
 To compile without running test run
 
     mvn install -DskipTests
