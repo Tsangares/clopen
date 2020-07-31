@@ -12,4 +12,5 @@ public class Edge{
 	alpha = a;
 	beta = b;
     }
+    
 }

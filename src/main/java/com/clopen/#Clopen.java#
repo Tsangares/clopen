@@ -25,7 +25,6 @@ class Clopen{
     public static boolean isInside(ArrayList<Edge> arr, Point p){
 	if (!isClosed(arr)) return false;
 	//Test if inside closed
-	
 	return false;
     }
 
