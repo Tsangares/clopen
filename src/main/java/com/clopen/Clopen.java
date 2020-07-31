@@ -7,7 +7,11 @@ import java.util.HashMap;
 
     
 class Clopen{
+<<<<<<< HEAD
     public static void main(String args[]){
+=======
+    public static void main(String args[]) {
+>>>>>>> e6675fc507c040b1579fd4ff01bbdc856f32601a
 	
     }
 
